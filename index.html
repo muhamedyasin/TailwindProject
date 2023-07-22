@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>project</title>
+  </head>
+  <body>
+    <div class="container min-h-screen font-display mx-auto">
+      <nav class="sticky top-0 z-50 w-full bg-white/80 px-5 backdrop-blur-md">
+        <div
+          class="flex w-full h-16 items-center justify-between px-5 md:justify-center"
+        >
+          <ul
+            class="hidden gap-10 md:flex justify-around items-center font-bold"
+          >
+            <li class="underline">
+              <a href="#">HOME</a>
+            </li>
+            <li class="hover:underline"><a href="#">ABOUT</a></li>
+            <box-icon size="md" color="orange" name="pyramid"></box-icon>
+            <li class="hover:underline"><a href="#">WORKS</a></li>
+            <li class="hover:underline"><a href="#">CONTACT</a></li>
+          </ul>
+
+          <box-icon
+            class="md:hidden"
+            size="sm"
+            color="orange"
+            name="pyramid"
+          ></box-icon>
+          <box-icon class="md:hidden" name="menu-alt-right"></box-icon>
+        </div>
+      </nav>
+      <main
+        class="flex flex-col justify-between items-center bg-[#131313] text-white rounded-3xl mx-6 p-8 gap-10"
+      >
+        <h1 class="text-2xl text-center md:text-4xl md:mt-4">
+          Visual Developer Based in kurdistan
+        </h1>
+        <p class="text-justify md:text-md">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima sint,
+          similique nostrum ab dolores, quibusdam asperiores magni est
+          consectetur enim suscipit molestias totam nulla accusamus eum, vitae
+          cum sequi! Cumque.
+        </p>
+        <div>
+          <button
+            class="flex group relative justify-end items-center gap-5 mb-5 bg-gradient-to-b to-orange-600 from-orange-400 px-2 py-2 md:px-3 md:py-2 rounded-full w-40"
+            type="button"
+          >
+            <p
+              class="absolute left-6 group-hover:text-orange-600 group-hover:left-8 text-md transition-all duration-500"
+            >
+              Contact Me
+            </p>
+            <div
+              class="flex justify-end items-center w-6 h-6 bg-white rounded-full group-hover:w-40 transition-[width] duration-500"
+            >
+              <box-icon color="orange" name="right-arrow-alt"></box-icon>
+            </div>
+          </button>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <div class="relative h-auto rounded-3xl overflow-clip">
+            <!-- Your image element -->
+            <img
+              src="/images/1.jpg"
+              alt="Image"
+              class="object-cover w-full h-full"
+            />
+
+            <!-- Your text element -->\
+            <div class="flex gap-10">
+              <p
+                class="absolute flex justify-between items-center w-full bottom-0 left-0 text-white p-2"
+              >
+                Branding Project
+                <button
+                  class="flex group relative justify-end items-center gap-5 bg-gradient-to-b to-orange-600 from-orange-400 px-1 py-0.5 md:px-1 md:py-2 rounded-full w-32"
+                  type="button"
+                >
+                  <p
+                    class="absolute left-6 group-hover:text-orange-600 group-hover:left-8 text-xs transition-all duration-500"
+                  >
+                    Learn More
+                  </p>
+                  <div
+                    class="flex justify-end items-center w-6 h-6 bg-white rounded-full group-hover:w-40 transition-[width] duration-500"
+                  >
+                    <box-icon
+                      color="orange"
+                      name="right-arrow-circle"
+                    ></box-icon>
+                  </div>
+                </button>
+              </p>
+            </div>
+          </div>
+          <div>
+            <div class="relative h-auto rounded-3xl overflow-clip">
+              <!-- Your image element -->
+              <img
+                src="/images/2.jpg"
+                alt="Image"
+                class="object-cover w-full h-full"
+              />
+
+              <!-- Your text element -->
+              <p
+                class="absolute flex justify-between items-center w-full bottom-0 left-0 text-white p-2"
+              >
+                Branding Project
+                <button
+                  class="flex group relative justify-end items-center gap-5 bg-gradient-to-b to-orange-600 from-orange-400 px-1 py-0.5 md:px-1 md:py-2 rounded-full w-32"
+                  type="button"
+                >
+                  <p
+                    class="absolute left-6 group-hover:text-orange-600 group-hover:left-8 text-xs transition-all duration-500"
+                  >
+                    Learn More
+                  </p>
+                  <div
+                    class="flex justify-end items-center w-6 h-6 bg-white rounded-full group-hover:w-40 transition-[width] duration-500"
+                  >
+                    <box-icon
+                      color="orange"
+                      name="right-arrow-circle"
+                    ></box-icon>
+                  </div>
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer
+        class="flex flex-col divide-y divide-slate-600 p-8 md:p-14 items-center text-white bg-[#111] mt-7 mx-5 rounded-t-3xl"
+      >
+        <section class="flex py-10 flex-col items-center gap-5 md:gap-10">
+          <h1 class="text-center text-3xl md:text-5xl">Have a cool project?</h1>
+          <button
+            class="flex group relative justify-end items-center gap-5 bg-gradient-to-b to-orange-600 from-orange-400 px-2 py-2 md:px-3 md:py-2 rounded-full w-40"
+            type="button"
+          >
+            <p
+              class="absolute left-6 group-hover:text-orange-600 group-hover:left-8 text-md transition-all duration-500"
+            >
+              Contact Me
+            </p>
+            <div
+              class="flex justify-end items-center w-6 h-6 bg-white rounded-full group-hover:w-40 transition-[width] duration-500"
+            >
+              <box-icon color="orange" name="right-arrow-alt"></box-icon>
+            </div>
+          </button>
+        </section>
+
+        <section
+          class="flex flex-col py-10 items-center md:flex-row gap-10 w-full md:justify-between"
+        >
+          <div class="flex flex-col gap-3 items-center md:items-start md:w-40">
+            <div class="rounded-full w-32 h-32 overflow-clip">
+              <img
+                src="/images/muhammed.png"
+                alt="me"
+                class="object-cover w-full h-full"
+              />
+            </div>
+            <p class="font-light text-sm">Muhammed Yassin Developer</p>
+          </div>
+          <ul
+            class="flex flex-col text-center gap-3 font-extralight text-xs md:text-sm"
+          >
+            <p class="font-medium text-sm md:text-base">Navigation</p>
+            <li
+              class="transition-all ease-in-out duration-300 hover:tracking-wider hover:text-lg"
+            >
+              <a href="#">Home</a>
+            </li>
+            <li
+              class="transition-all ease-in-out duration-300 hover:tracking-wider hover:text-md"
+            >
+              <a href="#">About</a>
+            </li>
+            <li
+              class="transition-all ease-in-out duration-300 hover:tracking-wider hover:text-lg"
+            >
+              <a href="#">Express</a>
+            </li>
+            <li
+              class="transition-all ease-in-out duration-300 hover:tracking-wider hover:text-lg"
+            >
+              <a href="#">Work</a>
+            </li>
+          </ul>
+          <ul
+            class="flex flex-col text-center gap-3 font-extralight text-xs md:text-sm"
+          >
+            <p class="font-medium text-sm md:text-base">Services</p>
+            <li
+              class="transition-all ease-in-out duration-300 hover:tracking-wider hover:text-lg"
+            >
+              <a href="#">Branding</a>
+            </li>
+            <li
+              class="transition-all ease-in-out duration-300 hover:tracking-wider hover:text-lg"
+            >
+              <a href="#">UI/UX Design</a>
+            </li>
+            <li
+              class="transition-all ease-in-out duration-300 hover:tracking-wider hover:text-lg"
+            >
+              <a href="#">Development</a>
+            </li>
+            <li
+              class="transition-all ease-in-out duration-300 hover:tracking-wider hover:text-lg"
+            >
+              <a href="#">Digital Marketing</a>
+            </li>
+          </ul>
+          <ul
+            class="flex flex-col text-center gap-3 font-extralight text-xs md:text-sm"
+          >
+            <p class="font-medium text-sm md:text-base">Social Media</p>
+            <li
+              class="transition-all ease-in-out duration-300 hover:tracking-wider hover:text-lg"
+            >
+              <a href="#">Facebook</a>
+            </li>
+            <li
+              class="transition-all ease-in-out duration-300 hover:tracking-wider hover:text-lg"
+            >
+              <a href="#">Twitter</a>
+            </li>
+            <li
+              class="transition-all ease-in-out duration-300 hover:tracking-wider hover:text-lg"
+            >
+              <a href="#">Linkedin</a>
+            </li>
+            <li
+              class="transition-all ease-in-out duration-300 hover:tracking-wider hover:text-lg"
+            >
+              <a href="#">Github</a>
+            </li>
+          </ul>
+        </section>
+        <section
+          class="flex flex-col md:flex-row justify-center items-center gap-4 py-5 w-full text-sm font-light text-slate-200"
+        >
+          <p>&copy;2023. by Muhammed Yasin</p>
+          <div>
+            <a href="https://www.linkedin.com/in/muhammed-yassin-mala-51277a269"
+              ><i class="bx bxs-like bx-tada-hover"></i
+              ><box-icon
+                animation="tada-hover"
+                color="white"
+                size="sm"
+                type="logo"
+                name="linkedin-square"
+              ></box-icon
+            ></a>
+            <a href="https://github.com/muhamedyasin"
+              ><box-icon
+                color="white"
+                size="sm"
+                type="logo"
+                name="github"
+              ></box-icon
+            ></a>
+            <a
+              href="https://www.facebook.com/Mohammed.Yasin.Badli?mibextid=ZbWKwL"
+              ><box-icon
+                color="white"
+                size="sm"
+                name="meta"
+                type="logo"
+              ></box-icon
+            ></a>
+            <a href="https://t.me/Muhammed_Yassen"
+              ><box-icon
+                color="white"
+                size="sm"
+                type="logo"
+                name="telegram"
+              ></box-icon
+            ></a>
+            <a href="https://www.instagram.com/mhamad_yasin_mala?r=nametag"
+              ><box-icon
+                color="white"
+                size="sm"
+                type="logo"
+                name="instagram-alt"
+              ></box-icon
+            ></a>
+          </div>
+        </section>
+      </footer>
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
